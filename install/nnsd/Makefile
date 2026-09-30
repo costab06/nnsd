@@ -1,0 +1,1 @@
+default:	cp ../../src/nnsd/nnsd ./nnsd	tar -zcvf nnsd.tar.gz start_nnsd kill_nnsd install_nnsd nnsd	rm ./nnsd

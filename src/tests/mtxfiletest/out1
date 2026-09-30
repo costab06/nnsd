@@ -1,0 +1,52 @@
+Read in Matrix File values: learningRate = 0.200000
+momentum = 0.500000
+trainingTolerance = 0.200000
+ layers = 3
+ neurons: 2 5 1 0 0 0 0 0
+
+Weights:
+Layer[0]: 
+		from layer[0] neuron[0]: 
+			to layer[1] neuron 0]: -1.518733
+			to layer[1] neuron 1]: -1.396399
+			to layer[1] neuron 2]: -0.660301
+			to layer[1] neuron 3]: 0.628156
+			to layer[1] neuron 4]: -1.343598
+		from layer[0] neuron[1]: 
+			to layer[1] neuron 0]: -1.749565
+			to layer[1] neuron 1]: -1.747834
+			to layer[1] neuron 2]: -0.764571
+			to layer[1] neuron 3]: 0.713102
+			to layer[1] neuron 4]: -1.857402
+		from layer[0] neuron[2]: 
+			to layer[1] neuron 0]: 0.907514
+			to layer[1] neuron 1]: 0.783476
+			to layer[1] neuron 2]: -0.176606
+			to layer[1] neuron 3]: 0.146225
+			to layer[1] neuron 4]: 0.820735
+Layer[1]: 
+		from layer[1] neuron[0]: 
+			to layer[2] neuron 0]: -2.638098
+		from layer[1] neuron[1]: 
+			to layer[2] neuron 0]: -2.450420
+		from layer[1] neuron[2]: 
+			to layer[2] neuron 0]: -0.332057
+		from layer[1] neuron[3]: 
+			to layer[2] neuron 0]: 2.477779
+		from layer[1] neuron[4]: 
+			to layer[2] neuron 0]: -2.495962
+		from layer[1] neuron[5]: 
+			to layer[2] neuron 0]: 0.000000
+MinInput: 
+ 0.000000  0.000000 
+
+MinOutput: 
+ 0.000000 
+
+MaxInput: 
+ 1.000000  1.000000 
+
+MaxOutput: 
+ 1.000000 
+
+PrintMatrixFile returned: 0

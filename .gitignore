@@ -1,0 +1,29 @@
+# Build artifacts
+*.o
+*.a
+
+# Binaries
+src/nnsd/nnsd
+src/utils/*.o
+src/lib/**/*.o
+
+# CMake build
+cmake-build-debug/
+CMakeLists.txt.user
+
+# IDE
+.idea/
+
+# Editor backups
+*~
+*.c~
+*.h~
+
+# Dead code compiled artifacts
+dead_code/mtxfile/mkmtxfile
+dead_code/mtxfile/vermtxfile
+dead_code/nnc/nnc
+dead_code/screens/curses
+dead_code/screens/screentest
+dead_code/telnet_em
+dead_code/update_em

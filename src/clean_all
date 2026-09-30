@@ -1,0 +1,47 @@
+cd ./lib/cJSON
+echo
+echo "*** Building" `pwd`
+echo
+make clean
+cd ../..
+
+cd ./lib/libcsv
+echo
+echo "*** Building" `pwd`
+echo
+make clean
+cd ../..
+
+cd ./utils
+echo
+echo "*** Cleaning" `pwd`
+echo
+make clean
+cd ..
+
+cd ./nnsd
+echo
+echo "*** Cleaning" `pwd`
+echo
+make clean
+cd ..
+
+echo
+echo "*** Finished"
+echo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

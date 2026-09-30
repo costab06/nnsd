@@ -1,0 +1,28 @@
+cd ./lib/cJSON
+echo
+echo "*** Building" `pwd`
+echo
+make
+cd ../..
+cd ./lib/libcsv
+echo
+echo "*** Building" `pwd`
+echo
+make
+cd ../..
+cd ./utils
+echo
+echo "*** Building" `pwd`
+echo
+make
+cd ..
+cd ./nnsd
+echo
+echo "*** Building" `pwd`
+echo
+make
+cd ..
+echo
+echo "*** Finished"
+echo
+

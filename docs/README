@@ -1,0 +1,1 @@
+README for building and installing nns/nnc1) untar the linuxthreads_tar.tar.gz package.  Based on the READMEfile, edit the Makefile as needed. Run make.  Run make install.make install.2) untar the dce-rpc-linux-0_1_tar.tar.gz package Based on the INSTALLfile, run make all.
